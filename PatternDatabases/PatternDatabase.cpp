@@ -1,4 +1,8 @@
 #include "PatternDatabase.h"
+#include <cassert>
+#include <fstream>
+#include <string>
+#include <vector>
 
 using namespace std;
 

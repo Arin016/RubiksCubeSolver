@@ -1,7 +1,11 @@
 #ifndef RUBIKS_CUBE_SOLVER_PERMUTATIONINDEXER_H
 #define RUBIKS_CUBE_SOLVER_PERMUTATIONINDEXER_H
-#include "bits/stdc++.h"
-#include "math.h"
+
+#include "RubiksMath.h"
+#include <array>
+#include <bitset>
+#include <cstdint>
+
 using namespace std;
 
 template <size_t N, size_t K = N>

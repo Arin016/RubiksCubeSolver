@@ -1,14 +1,17 @@
 #include "CornerDBMaker.h"
+#include <queue>
 
 using namespace std;
 
 CornerDBMaker::CornerDBMaker(string _fileName) {
     fileName = _fileName;
+    maxDepth = 5;
 }
 
 CornerDBMaker::CornerDBMaker(string _fileName, uint8_t init_val) {
     fileName = _fileName;
     cornerDB = CornerPatternDatabase(init_val);
+    maxDepth = 5;
 }
 
 bool CornerDBMaker::bfsAndStore() {
@@ -20,7 +23,7 @@ bool CornerDBMaker::bfsAndStore() {
     while (!q.empty()) {
         int n = q.size();
         curr_depth++;
-        if (curr_depth == 9) break;
+        if (curr_depth > maxDepth) break;
         for (int counter = 0; counter < n; counter++) {
             RubiksCubeBitboard node = q.front();
             q.pop();

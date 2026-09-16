@@ -3,9 +3,9 @@
 
 #include "../Model/RubiksCube.h"
 #include "NibbleArray.h"
-#include "bits/stdc++.h"
-
-using namespace std;
+#include <fstream>
+#include <string>
+#include <vector>
 
 class PatternDatabase {
 

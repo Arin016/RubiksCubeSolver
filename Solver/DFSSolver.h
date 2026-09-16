@@ -1,8 +1,8 @@
-#include<bits/stdc++.h>
-#include "../Model/RubiksCube.h"
-
 #ifndef RUBIKS_CUBE_SOLVER_DFSSOLVER_H
 #define RUBIKS_CUBE_SOLVER_DFSSOLVER_H
+
+#include "../Model/RubiksCube.h"
+#include <vector>
 
 // Typename T: RubiksCube Representation used (3d, 1d, Bitboard)
 // Typename H: Corresponding Hash function

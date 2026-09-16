@@ -1,4 +1,5 @@
 #include "RubiksCube.h"
+#include <iostream>
 
 //
 //Given a color return it's first letter
