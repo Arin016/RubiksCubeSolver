@@ -1,10 +1,11 @@
-#include<bits/stdc++.h>
-#include "../Model/RubiksCube.h"
-//#include "../Model/PatternDatabase/PatternDatabase.h"
-#include "../PatternDatabases/CornerPatternDatabase.h"
-
 #ifndef RUBIKS_CUBE_SOLVER_IDASTARSOLVER_H
 #define RUBIKS_CUBE_SOLVER_IDASTARSOLVER_H
+
+#include "../Model/RubiksCube.h"
+#include "../PatternDatabases/CornerPatternDatabase.h"
+#include <queue>
+#include <unordered_map>
+#include <vector>
 
 template<typename T, typename H>
 class IDAstarSolver {

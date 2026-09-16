@@ -1,4 +1,5 @@
 #include "CornerPatternDatabase.h"
+#include <array>
 
 CornerPatternDatabase::CornerPatternDatabase() : PatternDatabase(100179840) {}
 

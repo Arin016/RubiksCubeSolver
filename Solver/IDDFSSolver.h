@@ -1,10 +1,10 @@
 
-#include<bits/stdc++.h>
-#include "../Model/RubiksCube.h"
-#include "DFSSolver.h"
-
 #ifndef RUBIKS_CUBE_SOLVER_IDDFSSOLVER_H
 #define RUBIKS_CUBE_SOLVER_IDDFSSOLVER_H
+
+#include "../Model/RubiksCube.h"
+#include "DFSSolver.h"
+#include <vector>
 
 template<typename T, typename H>
 class IDDFSSolver {
